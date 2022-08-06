@@ -19,7 +19,7 @@ optional arguments:
   --bs, --no-bs    Using BeautifulSoup - input must be a saved html file
 ```
 
-### Using Pandas
+## Using Pandas
 Login to Portal, choose "All grades", then copy the grade table and paste to 
 `sample.txt`. Run `create.py` from the command line:
 ```
@@ -35,7 +35,7 @@ python create.py --input sample.txt --output sample.csv --pd
 
 Your formatted grades will be inside `sample.csv`. 
 
-### Using BeautifulSoup
+## Using BeautifulSoup
 Save the Portal webpage to html page (Save As -> html). Run `create.py` from
 the command line:
 ```
